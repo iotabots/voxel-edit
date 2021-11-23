@@ -1,8 +1,8 @@
 {
   "name": "voxel-edit",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://kenny-designs.github.io/voxel-edit",
+  "private": false,
+  "homepage": "http://create.iotabots.io",
   "dependencies": {
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
