@@ -4,4 +4,14 @@ body {
   height: 100%;
   /*overflow-y: hidden;*/
   background-color: var(--main-bg-color);
+  font-family: 'Press Start 2P', cursive;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--main-bg-color);
 }
