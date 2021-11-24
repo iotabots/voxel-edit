@@ -1,5 +1,6 @@
 import "./App.css";
 import VoxelManager from "./VoxelManager";
+import Game from "./Game";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 import { Routes, Route } from "react-router-dom";
@@ -32,6 +33,7 @@ const App = () => {
     <Navigation />
       <Routes>
         <Route path="/" element={<VoxelManager />} />
+        <Route path="/game" element={<Game />} />
       </Routes>
       <Footer />
     </ThemeProvider>

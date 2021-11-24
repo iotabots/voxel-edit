@@ -126,7 +126,21 @@ export default function PrimarySearchAppBar() {
                                 };
                             }}
                             className="nav-link" to="/">
-                            Home
+                            BUILD
+                        </NavLink>
+                    </Box>
+                    <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+                     |  
+                    </Box>
+                    <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+                        <NavLink
+                            style={({ isActive }) => {
+                                return {
+                                    color: isActive ? "#02c692" : ""
+                                };
+                            }}
+                            className="nav-link" to="/game">
+                            GAME
                         </NavLink>
                     </Box>
                     <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
